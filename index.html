@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="app.js">
+</head>
+<body id="body">
+    <header id="heade">Etch-a-Sketck</header>
+    <div id="playground">
+        <div id="options">
+            <div>color</div>
+            <div id="size">
+                <!-- a range input to get size of grid 16 to 32-->
+                <input type="range" min="16" max="32" value="16" class="slider" id="myRange">
+            </div>
+            <div>clear</div>
+            <div>
+                <!-- a print button which will give a pdf of the sketch in the 'grid' id block -->
+                <button id="print">Print</button>
+            </div>
+        </div>
+        <div id="grid" class="grid">
+            <!-- the grid will be created here -->
+        </div>
+    </div>
+    <footer id="footer">
+        its a meeeee
+    </footer>
+</body>
+
+</html>
